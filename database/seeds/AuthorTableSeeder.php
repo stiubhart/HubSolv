@@ -12,7 +12,7 @@ class AuthorTableSeeder extends Seeder
      */
     public function run()
     {
-        $authors = File::get("database/data/books.json");
+        $authors = File::get("database/Data/books.json");
         $authors = json_decode($authors);
 
         foreach ($authors as $key => $author) {
