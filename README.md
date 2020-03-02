@@ -13,18 +13,31 @@ Hubsolve - Web Developer - PHP - MySQL - Laravel - Glasgow - Perm - Backend Test
 
 ## Installation
 Clone the repo
+
 `git clone git@github.com:stiubhart/hubsolv.git`
+
 Create a new database
+
 Create a `.env` file
+
 `cp .env.example .env`
+
 Add your database connection information into the `.env` file
+
 Install dependencies
+
 `composer install`
+
 Run Migrations
+
 `php artisan migrate`
+
 Seed the database
+
 `php artisan db:seed`
+
 You can also run your tests
+
 `composer test`
 
 
@@ -38,6 +51,7 @@ You can also run your tests
 - PDO PHP Extension
 - Tokenizer PHP Extension
 - XML PHP Extension
+
 
 ## Assumptions
 - I Assume I am able to get the information from the current online retailer in a JSON file and that file will be in the same format as in the table (i.e. capital letters in the table heading)
