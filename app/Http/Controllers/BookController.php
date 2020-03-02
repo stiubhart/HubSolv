@@ -26,11 +26,14 @@ class BookController extends Controller
 
         // Filter by Categories
         $bookCollection = [];
+        $found = [];
         if (array_key_exists('category', $request->all())) {
             foreach ($books as $key => $book) {
                 foreach ($book->Categories as $key2 => $category) {
-                    if (in_array($category->category, $request->category))
+                    if (in_array($category->category, $request->category) && ! in_array($book->id, $found)) {
+                        $found[] = $book->id;
                         $bookCollection[] = $book;
+                    }
                 }
             }
         } else {
