@@ -1,6 +1,6 @@
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
-## HubSolv
+# HubSolv
 
 Hubsolve - Web Developer - PHP - MySQL - Laravel - Glasgow - Perm - Backend Test
 
@@ -47,6 +47,12 @@ You can also run your tests
 ```
 composer test
 ```
+
+
+## Endpoints
+List All: `/api/book/`
+Filter List: `/api/book/?author=Robin+Nixon&category[0]=PHP&category[1]=Javascript`
+List All Categories: `/api/category/`
 
 
 ## Dependencies 
