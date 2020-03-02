@@ -57,11 +57,9 @@ Filter list:  `GET``{BASE_URL}/api/book/?author=Robin+Nixon&category[0]=PHP&cate
 List all categories:  `GET``{BASE_URL}/api/category/`
 
 Create a new book: `POST``{BASE_URL}/api/book`
-
+    Parameters 
     - `ISBN`
-    
     - `Title`
-    
     - `Author`
     - `Category` - Comma separated list of categories
     - `Price`
