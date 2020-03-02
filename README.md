@@ -14,6 +14,10 @@ Change working directory
 ```
 cd hubsolv
 ```
+At this point you may need to fix some permissions
+```
+sudo chown -R www-data:www-data storage
+```
 Create a new database
 
 Create a `.env` file
