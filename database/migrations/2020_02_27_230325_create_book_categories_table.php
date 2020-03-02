@@ -20,10 +20,10 @@ class CreateBookCategoriesTable extends Migration
             $table->timestamps();
         });
 
-//        Schema::table('book_category', function(Blueprint $table) {
-//            $table->foreign('book_id')->references('id')->on('book');
-//            $table->foreign('category_id')->references('id')->on('category');
-//        });
+        Schema::table('book_category', function(Blueprint $table) {
+            $table->foreign('book_id')->references('id')->on('book');
+            $table->foreign('category_id')->references('id')->on('category');
+        });
     }
 
     /**
