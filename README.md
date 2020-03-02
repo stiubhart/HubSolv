@@ -14,31 +14,43 @@ Hubsolve - Web Developer - PHP - MySQL - Laravel - Glasgow - Perm - Backend Test
 ## Installation
 Clone the repo
 
-`git clone git@github.com:stiubhart/hubsolv.git`
+```
+git clone git@github.com:stiubhart/hubsolv.git
+```
 
 Create a new database
 
 Create a `.env` file
 
-`cp .env.example .env`
+```
+cp .env.example .env
+```
 
 Add your database connection information into the `.env` file
 
 Install dependencies
 
-`composer install`
+```
+composer install
+```
 
 Run Migrations
 
-`php artisan migrate`
+```
+php artisan migrate
+```
 
 Seed the database
 
-`php artisan db:seed`
+```
+php artisan db:seed
+```
 
 You can also run your tests
 
-`composer test`
+```
+composer test
+```
 
 
 ## Dependencies 
