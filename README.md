@@ -50,20 +50,20 @@ composer test
 
 
 ## Endpoints
-List all books: `GET``{BASE_URL}/api/book/`
+List all books: `GET` `{BASE_URL}/api/book/`
 
-Filter list:  `GET``{BASE_URL}/api/book/?author=Robin+Nixon&category[0]=PHP&category[1]=Javascript`
+Filter list:  `GET` `{BASE_URL}/api/book/?author=Robin+Nixon&category[0]=PHP&category[1]=Javascript`
 
-List all categories:  `GET``{BASE_URL}/api/category/`
+List all categories:  `GET` `{BASE_URL}/api/category/`
 
-Create a new book: `POST``{BASE_URL}/api/book`
+Create a new book: `POST` `{BASE_URL}/api/book`
     
     Create parameters 
-    - `ISBN`
-    - `Title`
-    - `Author`
-    - `Category` - Comma separated list of categories
-    - `Price`
+    - ISBN
+    - Title
+    - Author
+    - Category - Comma separated list of categories
+    - Price
 
 ## Dependencies 
 - PHP >= 7.1.3
