@@ -16,17 +16,15 @@ class CreateBooksTable extends Migration
         Schema::create('book', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('author_id')->unsigned();
-//            $table->integer('fk_category_id')->unsigned();
             $table->string('isbn');
             $table->string('title');
             $table->decimal('price',7,2);
             $table->timestamps();
         });
 
-//        Schema::table('book', function($table) {
-//            $table->foreign('author_id')->references('id')->on('author');
-////            $table->foreign('fk_category_id')->references('id')->on('book_category');
-//        });
+        Schema::table('book', function($table) {
+            $table->foreign('author_id')->references('id')->on('author');
+        });
     }
 
     /**
