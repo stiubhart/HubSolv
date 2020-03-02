@@ -50,11 +50,11 @@ composer test
 
 
 ## Endpoints
-List All: `/api/book/`
+List all books: `/api/book/`
 
-Filter List: `/api/book/?author=Robin+Nixon&category[0]=PHP&category[1]=Javascript`
+Filter list: `/api/book/?author=Robin+Nixon&category[0]=PHP&category[1]=Javascript`
 
-List All Categories: `/api/category/`
+List all categories: `/api/category/`
 
 
 ## Dependencies 
