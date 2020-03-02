@@ -12,7 +12,7 @@ class CategoriesTableSeeder extends Seeder
      */
     public function run()
     {
-        $categories = File::get("database/data/books.json");
+        $categories = File::get("database/Data/books.json");
         $categories = json_decode($categories);
 
         foreach ($categories as $key => $categoriesCSV) {
