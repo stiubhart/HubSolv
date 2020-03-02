@@ -14,7 +14,7 @@ class BooksTableSeeder extends Seeder
      */
     public function run()
     {
-        $books = File::get("database/data/books.json");
+        $books = File::get("database/Data/books.json");
         $books = json_decode($books);
 
         foreach ($books as $key => $book) {
