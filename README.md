@@ -8,9 +8,12 @@ Hubsolve - Web Developer - PHP - MySQL - Laravel - Glasgow - Perm - Backend Test
 Clone the repo
 
 ```
-git clone git@github.com:stiubhart/hubsolv.git
+git clone https://github.com/stiubhart/hubsolv.git
 ```
-
+Change working directory
+```
+cd hubsolv
+```
 Create a new database
 
 Create a `.env` file
